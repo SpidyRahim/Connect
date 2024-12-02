@@ -100,7 +100,7 @@ export default function JoinMeeting() {
       sharedLinks: [
         {
           name: "Personal link",
-          url: window.location.origin,
+          url: `${process.env.REACT_APP_HOST}/join/${params.id}`,
         },
       ],
       scenario: {
