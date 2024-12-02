@@ -652,9 +652,9 @@ function Dashboard() {
               gap: "15px",
               alignItems: "center",
               padding: "15px",
-              borderRadius: "10px",
+              borderRadius: "30px",
               background: "rgba(255, 255, 255, 0.1)", // Semi-transparent background
-              boxShadow: "0px 5px 15px rgba(0, 255, 255, 0.2)", // Glowing shadow
+              // boxShadow: "0px 5px 15px rgba(0, 255, 255, 0.2)", // Glowing shadow
             }}
           >
             <EuiFieldText
@@ -663,11 +663,11 @@ function Dashboard() {
               onChange={(e) => setMeetingURL(e.target.value)}
               style={{
                 flex: 1,
-                borderRadius: "8px",
+                borderRadius: "20px",
                 fontSize: "1rem",
                 padding: "0.8rem",
-                background: "rgba(0, 0, 0, 0.8)", // Dark background
-                color: "#00FFFF", // Neon text color
+                background: "#FFFFFF", // Dark background
+                // color: "#00FFFF", // Neon text color
                 border: "2px solid rgba(0, 255, 255, 0.3)", // Subtle glowing border
                 boxShadow: "0px 4px 10px rgba(0, 255, 255, 0.3)", // Input shadow
                 outline: "none", // Remove default outline
@@ -681,13 +681,13 @@ function Dashboard() {
               fill
               style={{
                 padding: "0.8rem 1.5rem",
-                borderRadius: "8px",
+                borderRadius: "20px",
                 background: "linear-gradient(135deg, #00FFFF, #1e90ff)", // Glowing gradient
                 color: "#ffffff",
                 fontWeight: "bold",
                 textTransform: "uppercase",
                 letterSpacing: "1px",
-                boxShadow: "0px 4px 10px rgba(0, 255, 255, 0.5)", // Glow effect
+                // boxShadow: "0px 4px 10px rgba(0, 255, 255, 0.5)", // Glow effect
                 transition: "transform 0.2s ease-in-out", // Button hover effect
                 cursor: "pointer",
               }}
