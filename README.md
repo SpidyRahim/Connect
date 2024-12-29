@@ -14,11 +14,11 @@ Below is a comprehensive and professional `README.md` template for your **Connec
 - **Google Sign-In Authentication**: Secure login using **Google Authentication** to protect user data.
 - **Integrated Chat**: Send and receive messages in real-time during video conferences.
 - **Unique Meeting Links**: Generate personalized meeting links for easy access and sharing.
+- **Real-Time Quizzes**: Engage participants with interactive quizzes during meetings, complete with immediate results and analytics.
 
 ### **User Experience Enhancements**
 - **Light/Dark Mode Toggle**: Switch between light and dark themes for better accessibility.
 - **Toast Notifications**: Receive instant feedback for key actions like meeting creation and user updates.
-- **Real-Time Quizzes**: Engage participants with interactive quizzes during meetings, complete with immediate results and analytics.
 
 ### **Admin and Participant Features**
 - **Participant Management**: View and manage meeting participants in real-time.
@@ -52,7 +52,7 @@ Below is a comprehensive and professional `README.md` template for your **Connec
 ### **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/connect.git
+   git clone https://github.com/SpidyRahim/Connect.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -112,12 +112,6 @@ Contributions are welcome! If you'd like to contribute:
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## **Acknowledgments**
-Special thanks to **Md. Ferdous, Sir**, for his invaluable guidance, support, and feedback throughout the development of this project.
 
 ---
 
