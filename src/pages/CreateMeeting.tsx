@@ -19,6 +19,11 @@ export default function CreateMeeting() {
           display: "flex",
           height: "100vh",
           flexDirection: "column",
+          // display: "flex",
+          // height: "100vh",
+          // flexDirection: "column",
+          overflow: "auto",
+          background: "linear-gradient(135deg, #1e1e2f, #1a1a3f)", // Dark gradient background
         }}
       >
         <Header />
@@ -34,6 +39,13 @@ export default function CreateMeeting() {
               description="Create a personal single person meeting."
               onClick={() => navigate("/create1on1")}
               paddingSize="xl"
+              style={{
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.2)",
+                borderRadius: "20px",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.07)"}
+              onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
             />
           </EuiFlexItem>
           <EuiFlexItem>
@@ -43,6 +55,13 @@ export default function CreateMeeting() {
               description="Invite multiple persons to the meeting."
               onClick={() => navigate("/videoconference")}
               paddingSize="xl"
+              style={{
+                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.2)",
+                borderRadius: "20px",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.07)"}
+              onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
             />
           </EuiFlexItem>
         </EuiFlexGroup>
