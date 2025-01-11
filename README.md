@@ -1,6 +1,7 @@
 <p align="center">
-  <strong>Connect: Interactive Video Conferencing Platform with Real-Time Quizzes</strong>
+  <h1><b>Connect: Interactive Video Conferencing Platform with Real-Time Quizzes</b></h1>
 </p>
+
 **Connect** is a feature-rich, scalable, and user-centric video conferencing platform designed to facilitate seamless virtual communication. It leverages modern technologies to deliver real-time video conferencing, secure authentication, and dynamic collaboration features, making it ideal for professional and personal use.
 
 ## **Features**
